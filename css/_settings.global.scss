@@ -1,0 +1,47 @@
+//----------------------------------------------------------------------
+//	SETTINGS
+//	Global
+//----------------------------------------------------------------------
+
+//	Typography
+//-----------------------------------
+
+//	Type baseline
+$docFontSize: 16; /* 16px */
+$docLineHeight: 1.25; /* 20px */
+
+
+//	Font stacks
+$baseFont: Arial, Helvetica, sans-serif;
+
+
+
+
+//	Animation
+//-----------------------------------
+
+//	Transition
+$duration: 150ms;
+$easing: ease-out;
+
+
+
+
+//	Colors
+//-----------------------------------
+
+$darkGrey: #333;
+$midGrey: #999;
+$lightGrey: #b3b3b3;
+$magenta: #ec008c;
+$green: #66cc66;
+
+
+
+
+//	Responsive
+//-----------------------------------
+
+//	Breakpoints (in px)
+$lap: 600;
+$desk: 900;

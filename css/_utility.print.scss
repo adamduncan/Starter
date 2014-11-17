@@ -1,0 +1,39 @@
+//----------------------------------------------------------------------
+//	UTILITY
+//	Print
+//----------------------------------------------------------------------
+
+@media print {
+
+	@page {
+		margin: 1.5cm;
+	}
+
+	* {
+		border: 0 !important;
+		box-shadow: none !important;
+		color: #000 !important;
+		font-family: Arial, Helvetica, sans-serif !important;
+		text-shadow: none !important;
+	}
+
+	html,
+	body {
+		background: #fff !important;
+	}
+
+	p,
+	li {
+		page-break-inside: avoid;
+	}
+
+	.wrapper {
+		max-width: 100%;
+		min-width: 100%;
+	}
+
+	.hide-print {
+		display: none;
+	}
+
+}

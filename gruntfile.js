@@ -100,7 +100,7 @@
 		},
 		watch: {
 			css: {
-				files: 'css/scss/*.scss',
+				files: 'css/*.scss',
 				tasks: ['css']
 			},
 			js: {
